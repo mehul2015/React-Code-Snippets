@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 
-function Question(props) {
+function HooksDemo(props) {
   const [searchTerm, setSearchTerm] = useState('');
   const [results, setResults] = useState([]);
 
@@ -58,4 +58,4 @@ function Question(props) {
   );
 }
 
-export default Question;
+export default HooksDemo;
